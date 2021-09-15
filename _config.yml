@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Wendy"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "To be developer"
+  bio              : # ""
   location         : # "Somewhere"
   email            :
   links:
