@@ -27,6 +27,9 @@
     @include breakpoint($x-large) {
       max-width: $x-large;
     }
+    &.page__meta {
+      margin-top: 5em
+    }
   }
 
   a {
