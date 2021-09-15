@@ -78,7 +78,8 @@ body {
   }
 
   & + .page__meta {
-    margin-top: -0.5em;
+    margin: 10px 0 50px; 
+    font-size: 0.6em;
   }
 }
 
@@ -111,7 +112,8 @@ body {
 	}
 
   p {
-    font-size: 14px;
+    font-size: 0.7em;
+    line-height: 1.7em;
   }
   li,
   dl {
