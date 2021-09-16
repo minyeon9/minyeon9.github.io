@@ -29,11 +29,13 @@ eclipse 오른 쪽 상단에 있는 버튼[open perspective] 클릭 - java 선�
 * .(dot)으로 구분   
 * 소스 파일 내 첫 줄에 단 한 번만 선언   
 * 일반적으로 하나의 단어로 지정   
+   
 2) Import   
 * 사용하려는 class가 속한 package 지정 시 사용   
 * import문을 사용하여 class를 불러올 때 package명 생략 가능   
 * java.lang package의 class는 import문 없이 사용 가능   
 *  String / Object / System 등   
+   
 3) Class   
 * method를 포함   
 * 모든 코드는 class 내에 작성   
@@ -42,6 +44,7 @@ eclipse 오른 쪽 상단에 있는 버튼[open perspective] 클릭 - java 선�
 * class명과 file명은 동일   
 * 여러개의 method를 포함 가능   
 * class명은 대문자로 시작(카멜케이스)   
+   
 4) Method   
 * class의 기능을 구현하는 블럭   
 * 실행 mothod(main method)   
