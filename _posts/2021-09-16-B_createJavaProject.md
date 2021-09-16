@@ -3,7 +3,7 @@ layout: single
 title: "Java Project 생성"
 ---
 #### 1. eclips JAVA 설정
-![Alt text](/asset/images/create_java_project01.png)   
+![Alt text](/assets/images/create_java_project01.png)   
 eclipse 오른 쪽 상단에 있는 버튼[open perspective] 클릭 - java 선택   
 이 버튼의 기능은 선택한 언어에 적합한 eclipse 뷰 레이아웃을 제공하는 것이다.   
 우리는 java 언어를 사용하기 때문에 java로 선택했다.   
@@ -14,7 +14,7 @@ eclipse 오른 쪽 상단에 있는 버튼[open perspective] 클릭 - java 선�
 원하는 버전이 없을 경우: [Add] - [Standard VM] - 경로 선택   
 * * *
 #### 3. Project 생성
-![Alt text](/asset/images/create_java_project02.png)   
+![Alt text](/assets/images/create_java_project02.png)   
 [file] -[new] - [java project]   
 1) project name 설정   
 2) JRE 확인   
@@ -56,9 +56,9 @@ eclipse 오른 쪽 상단에 있는 버튼[open perspective] 클릭 - java 선�
    
 ***
 #### 5. Class 생성
-![Alt text](/asset/images/create_java_project03.png)    
+![Alt text](/assets/images/create_java_project03.png)    
 [file] -[new] - [class]   
-![Alt text](/asset/images/create_java_project04.png)    
+![Alt text](/assets/images/create_java_project04.png)    
 src 폴더 내에 생성   
 1. project 경로 확인   
 2. package name 설정(대문자로 시작)   
