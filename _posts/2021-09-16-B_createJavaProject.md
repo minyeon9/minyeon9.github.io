@@ -60,10 +60,11 @@ eclipse 오른 쪽 상단에 있는 버튼[open perspective] 클릭 - java 선�
 [file] -[new] - [class]   
 ![Alt text](/assets/images/create_java_project04.png)    
 src 폴더 내에 생성   
-1. project 경로 확인   
-2. package name 설정(대문자로 시작)   
-3. class name 설정(소문자로 시작)   
-4. modifiers - public 체크   
+1) project 경로 확인   
+2) package name 설정(대문자로 시작)   
+3) class name 설정(소문자로 시작)   
+4) modifiers - public 체크   
+   
 ***
 #### 6. 출력 method
 * 변수 / 문자 / 숫자 / 논리 값을 출력   
