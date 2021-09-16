@@ -16,23 +16,25 @@ eclipse 오른 쪽 상단에 있는 버튼[open perspective] 클릭 - java 선�
 #### 3. Project 생성
 ![Alt text](/asset/images/creat_java_project02.jpg)   
 [file] -[new] - [java project]   
-1. project name 설정   
-2. JRE 확인   
-3. Create module-info.java file 체크 해제: 이게 뭔지 잘 모르겠어서 검색해봤는데.. 그래도 모르겠다. JDK 9 버전 이상 어쩌고 저쩌고 하는데...ㅠㅠ   
+1) project name 설정   
+2) JRE 확인   
+3) Create module-info.java file 체크 해제: 이게 뭔지 잘 모르겠어서 검색해봤는데.. 그래도 모르겠다. JDK 9 버전 이상 어쩌고 저쩌고 하는데...ㅠㅠ   
+
 * * *
+
 #### 4. Java 구성 순서와 구조
-1. Package   
+1) Package   
 * class 묶음   
 * sub package 포함 가능   
 * .(dot)으로 구분   
 * 소스 파일 내 첫 줄에 단 한 번만 선언   
 * 일반적으로 하나의 단어로 지정   
-2. Import   
+2) Import   
 * 사용하려는 class가 속한 package 지정 시 사용   
 * import문을 사용하여 class를 불러올 때 package명 생략 가능   
 * java.lang package의 class는 import문 없이 사용 가능   
 *  String / Object / System 등   
-3. Class   
+3) Class   
 * method를 포함   
 * 모든 코드는 class 내에 작성   
 * class가 모여 하나의 java 애플리케이션을 구성   
@@ -40,7 +42,7 @@ eclipse 오른 쪽 상단에 있는 버튼[open perspective] 클릭 - java 선�
 * class명과 file명은 동일   
 * 여러개의 method를 포함 가능   
 * class명은 대문자로 시작(카멜케이스)   
-4. Method   
+4) Method   
 * class의 기능을 구현하는 블럭   
 * 실행 mothod(main method)   
   * public static void main(String[] args)   
@@ -75,7 +77,7 @@ src 폴더 내에 생성
    
 ***
 #### 8. 숫자 / 문자 출력 및 연산
-1. 숫자   
+1) 숫자   
   - 따옴표 미 사용
 ```java
 public void printTest() {
@@ -84,7 +86,7 @@ public void printTest() {
 }
 ```   
    
-2. 문자
+2) 문자
   - ' ' : 한 글자   
   - " " : 한 글자 / 문자열 / 빈 값   
 ```java
@@ -94,7 +96,7 @@ public void printTest() {
 }
 ```   
    
-3. 연산
+3) 연산
 * 숫자 + 숫자   
 * 숫자 + 문자(순서 변경 가능)   
 * 문자 + 문자   
