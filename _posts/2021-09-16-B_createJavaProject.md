@@ -85,8 +85,8 @@ src 폴더 내에 생성
   - 따옴표 미 사용
 ```java
 public void printTest() {
-    System.out.println(123); // 정수
-    System.out.println(3.14); // 실수
+      System.out.println(123); // 정수
+      System.out.println(3.14); // 실수
 }
 ```   
    
@@ -95,8 +95,8 @@ public void printTest() {
   - " " : 한 글자 / 문자열 / 빈 값   
 ```java
 public void printTest() {
-    System.out.println('가'); // 한 글자
-    System.out.println("Hello World!"); // 문자열
+      System.out.println('가'); // 한 글자
+      System.out.println("Hello World!"); // 문자열
 }
 ```   
    
