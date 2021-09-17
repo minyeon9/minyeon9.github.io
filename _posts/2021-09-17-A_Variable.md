@@ -5,8 +5,8 @@ categories: ['Programming', 'Java']
 ---
 
 #### 1. 변수(Variable)란   
-메모리(RAM)에 값(Data)을 저장하기 위한 공간
-
+메모리(RAM)에 값(Data)을 저장하기 위한 공간   
+   
 1) 기본형   
 [!Alt] (/assets/images/variable01.png)   
    
