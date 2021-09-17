@@ -102,11 +102,11 @@ System.out.println(a < b); // true
    
 ***
 #### 5. 논리 연산자
-* (&&)
-* (||)   
+* &&
+* ||   
 * 논리 값을 비교   
-* (&& : AND) : 피 연산자 모두 true일 때 true 반환   
-* (|| : OR) : 피 연산자 중 하나만 true여도 true 반환   
+* &&(AND) : 피 연산자 모두 true일 때 true 반환   
+* ||(OR) : 피 연산자 중 하나만 true여도 true 반환   
    
 ``` java
 // &&
