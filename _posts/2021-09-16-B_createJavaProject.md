@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Java Project 생성"
+categories: ['Programming', 'Java']
 ---
 #### 1. eclips JAVA 설정
 ![Alt text](/assets/images/create_java_project01.png)   
