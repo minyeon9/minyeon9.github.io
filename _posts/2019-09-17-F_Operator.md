@@ -102,10 +102,12 @@ System.out.println(a < b); // true
    
 ***
 #### 5. 논리 연산자
-* (&&) (||)   
+* (&&)
+* (||)   
 * 논리 값을 비교   
 * (&& : AND) : 피 연산자 모두 true일 때 true 반환   
 * (|| : OR) : 피 연산자 중 하나만 true여도 true 반환   
+   
 ``` java
 // &&
 int a = 10;
@@ -125,24 +127,24 @@ System.out.println( (c == 30) || (d == 70) ); // true || false : true
 System.out.println( (c == 70) || (d == 40) ); // false || true : true
 System.out.println( (c == 70) || (d == 70) ); // false || false : false
 ```   
+      
    
-
 **번외 Short Circuit**   
 * 앞 조건만 수행해도 출력값이 정해질 때 뒤의 조건은 실행하지 않는 것   
-   
+    
 ![Alt text](/assets/images/Operator01.png)   
 &&(AND) 연산자는 피 연산자의 조건이 모두 true일 때만 true를 반환한다.   
 앞에서 false가 나오는 순간 이 연산은 뒤를 볼 것도 없이 false가 출력된다.   
 이때, 뒤 연산을 생략하는 것. = Short Circuit   
-   
     
-
+     
+   
 ![Alt text](/assets/images/Operator02.png)   
 ||(OR) 연산자는 하나만 true가 되어도 만족 하기 때문에   
 true 하나가 나오면 바로 연산을 만족하게 된다. 이때도 뒤 연산은 생략한다. 이게 Short Circuit !   
    
       
-
+   
 이 연산을 원하지 않을 경우는 연산자를 하나씩만 써주면 된다고 한다..!   
    
 ``` java
@@ -202,6 +204,5 @@ System.out.println(testNum);
 ```   
    
 num이 10과 같으면 1을 출력하고, 아닐 경우 2를 출력한다.   
-   
    
    
