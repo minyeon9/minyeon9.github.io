@@ -58,7 +58,7 @@
     &:hover {
       color: #964b5b;
     }
-    &.[rel="permalink"]::before {
+    &[rel="permalink"]::before {
       content: '';
       position: absolute;
       left: 0;
