@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[004일차] 변수(Variable)"
+title: "변수(Variable)"
 categories: ['Programming', 'Java']
 ---
 
