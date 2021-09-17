@@ -84,7 +84,9 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  // font-size: $type-size-6;
+  color: #666;;
+  font-size: .7em;
 
   & + p {
     text-indent: 0;
@@ -93,11 +95,7 @@
   a {
     position: relative;
   }
-
-  p {
-    color: #666;;
-    font-size: .7em;
-  }
+  
 }
 
 .archive__item-teaser {
