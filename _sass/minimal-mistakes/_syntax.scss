@@ -41,6 +41,9 @@ figure.highlight {
     }
 
     /* code */
+    &.code {
+      font-size: .8em;
+    }
     &.code,
     &.rouge-code {
       padding-left: 1em;

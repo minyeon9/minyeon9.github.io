@@ -8,7 +8,7 @@ categories: ['Programming', 'Java']
 메모리(RAM)에 값(Data)을 저장하기 위한 공간   
    
 1) 기본형   
-[!Alt] (/assets/images/variable01.png)   
+![Alt text](/assets/images/variable01.png)   
    
 2) 참조형   
 * String   
