@@ -91,3 +91,5 @@ categories: ['Programming', 'Java']
     System.out.println("double : " + Double.MIN_VALUE + " ~ " + Double.MAX_VALUE);
     System.out.println("char : " + (int)Character.MIN_VALUE + " ~ " + (int)Character.MAX_VALUE);
 ```   
+
+***
