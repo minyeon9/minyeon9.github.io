@@ -59,7 +59,8 @@ categories: ['Programming', 'Java']
 * 선언과 동시에 초기화   
 * 변수명은 모두 대문자   
 * 초기화 이후, 다른 데이터 대입 불가   
-* ex) final int AGE; > final 자료형 변수명(대문자);   
+* ex) final int AGE; > final 자료형 변수명(대문자);    
+   
 ``` java
     final int AGE;
 ```   
@@ -83,13 +84,13 @@ categories: ['Programming', 'Java']
 * * *
 #### 6. 자료형 범위 값 확인 방법
 ``` java
-	System.out.println("byte : " + Byte.MIN_VALUE + " ~ " + Byte.MAX_VALUE);
-    System.out.println("short : " + Short.MIN_VALUE + " ~ " + Short.MAX_VALUE);
-    System.out.println("int : " + Integer.MIN_VALUE + " ~ " + Integer.MAX_VALUE);
-    System.out.println("long : " + Long.MIN_VALUE + " ~ " + Long.MAX_VALUE);
-    System.out.println("float : " + Float.MIN_VALUE + " ~ " + Float.MAX_VALUE);
-    System.out.println("double : " + Double.MIN_VALUE + " ~ " + Double.MAX_VALUE);
-    System.out.println("char : " + (int)Character.MIN_VALUE + " ~ " + (int)Character.MAX_VALUE);
+System.out.println("byte : " + Byte.MIN_VALUE + " ~ " + Byte.MAX_VALUE);
+System.out.println("short : " + Short.MIN_VALUE + " ~ " + Short.MAX_VALUE);
+System.out.println("int : " + Integer.MIN_VALUE + " ~ " + Integer.MAX_VALUE);
+System.out.println("long : " + Long.MIN_VALUE + " ~ " + Long.MAX_VALUE);
+System.out.println("float : " + Float.MIN_VALUE + " ~ " + Float.MAX_VALUE);
+System.out.println("double : " + Double.MIN_VALUE + " ~ " + Double.MAX_VALUE);
+System.out.println("char : " + (int)Character.MIN_VALUE + " ~ " + (int)Character.MAX_VALUE);
 ```   
 
 ***
