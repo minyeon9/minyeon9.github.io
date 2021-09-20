@@ -23,6 +23,20 @@ categories: ['Programming', 'Java']
 * 어떤 객체를 참조하고 있는지 확인할 때 사용하는 연산자
     * 클래스 타입이 맞으면 true, 아니면 false 반환   
    
+``` java
+class Fruit {}
+class Apple extends Fruit {}
+
+public class InstansofTest {
+	public static void main(String[] args) {
+		Fruit fruit = new Fruit();
+		Apple apple = new Apple();
+		
+		System.out.println(apple instanceof Fruit); // true
+	}
+}
+```   
+   
 ***
 #### 객체 배열과 다형성
 * 다형성을 이용하여 상속 관계에 있는 부모클래스 타입에 여러 종류의 자식 객체 저장   
