@@ -26,6 +26,7 @@ categories: ['Programming', 'Java']
 ***
 #### 객체 배열과 다형성
 * 다형성을 이용하여 상속 관계에 있는 부모클래스 타입에 여러 종류의 자식 객체 저장   
+   
 ``` java
 Car[] carArr = new Car[3];
 
