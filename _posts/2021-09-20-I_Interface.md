@@ -9,7 +9,7 @@ categories: ['Programming', 'Java']
 * 인스턴스 변수 사용 불가
 * 인터페이스의 모든 메서드는 public, abstract (예외 없으므로 생략 가능)
 * 객세 생성 불가
-* 최고 조상은 Interface
+* 최고 조상은 Interface   
    
 1) 추상 클래스와 인터페이스의 공통점   
 * 추상 메서드 포함
