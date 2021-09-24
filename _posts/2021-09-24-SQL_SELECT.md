@@ -69,6 +69,8 @@ FROM EMPLOYEE;
 ***
 
 #### 산술 연산
+* 컬럼 값에 대해 산술 연산한 결과 조회   
+   
 ```
 -- EMPLOYEE 테이블의 직원명, 연봉(급여 * 12) 조회
 SELECT EMP_NAME, SALARY * 12
