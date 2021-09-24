@@ -88,7 +88,7 @@ FROM EMPLOYEE;
 ![Alt text](/assets/images/sql_select04.jpg)   
    
 * 산술 연산 시, NULL이 포함된 경우는 무조건 NULL로 조회가 된다.   
-
+   
 -   
      
 
@@ -133,8 +133,8 @@ SELECT 컬럼 "별칭"
 위에서 했던 연봉 계산 후 조회했을 때의 컬럼처럼 연산이 포함되어 있거나,   
 컬럼명이 복잡하거나 한 번에 알아보기 힘들 경우 컬럼에 별칭을 지정해 줄 수 있다.   
    
-* 숫자 호 ㄱ은 특수문자가 포함되는 경우에는 (" ") 사용
-* AS 생략 가능
+* 숫자 혹은 특수문자가 포함되는 경우에는 (" ") 사용   
+* AS 생략 가능   
    
 -   
    
@@ -224,7 +224,7 @@ WHERE DEPT_CODE = 'D9';
 ![Alt text](/assets/images/sql_select11.jpg)    
    
 * 동등 비교
-* Java에서 ( == )를 사용했던 것과 헷갈리지 말쟈 !
+* Java에서 ( == )를 사용했던 것과 헷갈리지 말쟈 !   
    
 -
 
@@ -242,7 +242,7 @@ WHERE DEPT_CODE <> 'D9';
 ![Alt text](/assets/images/sql_select12.jpg)   
    
 * 부서 코드 D9를 제외한 컬럼 조회
-* 3가지 연산자 모두 사용 가능   
+* 3가지 연산자 모두 사용 가능     
    
 -
    
@@ -254,8 +254,8 @@ FROM EMPLOYEE
 WHERE SALARY >= 4000000;
 ```   
    
-![Alt text](/assets/images/sql_select13.jpg)   
-   
+![Alt text](/assets/images/sql_select13.jpg)     
+    
 -
    
 ```
@@ -284,7 +284,7 @@ WHERE SALARY BETWEEN 3500000 AND 6000000;
 급여가 300 - 600만원 사이인 직원 조회한 결과.   
 지정한 값의 경계도 포함 되는 걸 볼 수 있다.
 기호로 표현하면 **3,000,000 <= SALARY => 6,000,000** 이렇게 된다.   
-   
+    
 -
    
 ```
@@ -316,7 +316,7 @@ WHERE HIRE_DATE BETWEEN '90/01/01' AND '01/01/01';
 -
    
 **AND 연산 결과**
-||TRUE|FALSE|NULL|
+|TRUE|FALSE|NULL|
 |---|---|---|---|
 |TRUE|TRUE|FALSE|NULL|
 |FALSE|FALSE|FALSE|FALSE|
@@ -325,7 +325,7 @@ WHERE HIRE_DATE BETWEEN '90/01/01' AND '01/01/01';
 -
    
 **OR 연산 결과**
-||TRUE|FALSE|NULL|
+|TRUE|FALSE|NULL|
 |---|---|---|---|
 |TRUE|TRUE|TRUE|TRUE|
 |FALSE|TRUE|FALSE|NULL|
@@ -390,7 +390,7 @@ FROM EMPLOYEE;
         * WHERE 비교대상컬럼 '_문자' : '문자'앞에 오는 한 글자가 있는 행 조회
         * WHERE 비교대상컬럼 '__문자' : '문자'앞에 오는 두 글자가 있는 행 조회   
     
-##### &
+##### 와일드 카드 &
    
 ```
 -- EMPLOYEE 테이블 내에서 성이 전인 사원의 사원명, 급여, 입사일 조회
@@ -434,7 +434,7 @@ WHERE EMP_NAME NOT LIKE '김%';
 NOT만 추가해주면 되는데, 위치는 조건을 설정할 컬럼 명 앞이나 LIKE 앞에 붙이면 된다.   
    
    
-##### _
+##### 와일드 카드 _
    
 ```
 -- EMPLOYEE 테이블 내에서 전화번호 중 4번째 자리가 '9'로 시작하는 사원의 사원명, 전화번호, 이메일 조회
