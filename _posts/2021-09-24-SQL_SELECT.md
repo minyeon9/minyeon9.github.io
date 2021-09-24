@@ -77,7 +77,7 @@ FROM EMPLOYEE;
    
 ![Alt text](/assets/images/sql_select03.jpg)   
    
--   
+---
 
 ```
 -- EMPLOYEE 테이블 내의 직원명, 급여, 연봉, 보너스가 포함된 연봉(급여 + (보너스 * 급여) * 12) 조회
@@ -86,7 +86,7 @@ FROM EMPLOYEE;
 ```   
    
 ![Alt text](/assets/images/sql_select04.jpg)   
-
+   
 * 산술 연산 시, NULL이 포함된 경우는 무조건 NULL로 조회가 된다.   
 
 -   
