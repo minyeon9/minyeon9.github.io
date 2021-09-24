@@ -166,7 +166,7 @@ FROM EMPLOYEE;
    
 ![Alt text](/assets/images/sql_select09.jpg)    
    
-SELECT 절에 **단위(원)**으로 별칭을 지정한 *원*이 테이블 내에 존재하는 데이터처럼 반복 출력 되었다.   
+SELECT 절에 **단위(원)**으로 별칭을 지정한 **원**이 테이블 내에 존재하는 데이터처럼 반복 출력 되었다.   
    
 ***
 
