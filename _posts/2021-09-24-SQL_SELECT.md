@@ -128,6 +128,8 @@ FROM EMPLOYEE;
 ***
 
 #### 별칭 지정
+* 컬럼의 별칭을 지정   
+   
 ```
 SELECT 컬럼 AS 별칭
 SELECT 컬럼 AS "별칭(비고)"
