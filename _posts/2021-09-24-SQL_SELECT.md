@@ -98,7 +98,7 @@ SELECT EMP_NAME, HIRE_DATE, SYSDATE - HIRE_DATE
 FROM EMPLOYEE;
 
 -- 오늘 날짜 : SYSDATE
-```
+```   
    
 -   
      
@@ -135,9 +135,10 @@ SELECT 컬럼 "별칭"
    
 * 숫자 혹은 특수문자가 포함되는 경우에는 (" ") 사용   
 * AS 생략 가능   
+     
+-    
    
--   
-   
+
 ```
 -- Employee 테이블의 직원명, 급여, 연봉, 보너스가 포함된 연봉(급여 + (보너스 * 급여) * 12) 조회
 SELECT EMP_NAME AS 이름, SALARY AS "급여", SALARY*12 연봉, (SALARY + (BONUS * SALARY)) * 12 AS "총 소득(원)"
@@ -282,7 +283,7 @@ WHERE SALARY BETWEEN 3500000 AND 6000000;
 ![Alt text](/assets/images/sql_select18.jpg)  
 
 급여가 300 - 600만원 사이인 직원 조회한 결과.   
-지정한 값의 경계도 포함 되는 걸 볼 수 있다.
+지정한 값의 경계도 포함 되는 걸 볼 수 있다.   
 기호로 표현하면 **3,000,000 <= SALARY => 6,000,000** 이렇게 된다.   
     
 -
@@ -315,7 +316,7 @@ WHERE HIRE_DATE BETWEEN '90/01/01' AND '01/01/01';
    
 -
    
-**AND 연산 결과**
+**AND 연산 결과**   
 |TRUE|FALSE|NULL|
 |---|---|---|---|
 |TRUE|TRUE|FALSE|NULL|
@@ -324,7 +325,7 @@ WHERE HIRE_DATE BETWEEN '90/01/01' AND '01/01/01';
    
 -
    
-**OR 연산 결과**
+**OR 연산 결과**   
 |TRUE|FALSE|NULL|
 |---|---|---|---|
 |TRUE|TRUE|TRUE|TRUE|
@@ -403,8 +404,8 @@ WHERE EMP_NAME LIKE '전%';
    
 사원명 중 전으로 시작하는 이름을 가진 직원을 조회했다.   
 %는 원하는 글자 뒤가 몇글자인지 상관 없이 조회한다.   
-   
--
+      
+-   
    
 ```
 -- EMPLOYEE 테이블 내에서 '하'가 포함된 이름을 가진 사원의 사원명, 주민번호, 부서코드 조회
@@ -518,7 +519,7 @@ WHERE DEPT_CODE IN('D1', 'D2', 'D3');
    
 ***
 
-#### 연산자 우선 순위
+#### 연산자 우선 순위   
 |우선 순위|연산자|
 |---|---|
 |1|산술 연산자|
