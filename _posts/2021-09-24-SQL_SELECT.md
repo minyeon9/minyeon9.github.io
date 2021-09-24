@@ -77,8 +77,10 @@ FROM EMPLOYEE;
    
 ![Alt text](/assets/images/sql_select03.jpg)   
    
----
 
+-
+   
+   
 ```
 -- EMPLOYEE 테이블 내의 직원명, 급여, 연봉, 보너스가 포함된 연봉(급여 + (보너스 * 급여) * 12) 조회
 SELECT EMP_NAME, SALARY, SALARY * 12, (SALARY + (BONUS * SALARY)) * 12
@@ -88,6 +90,7 @@ FROM EMPLOYEE;
 ![Alt text](/assets/images/sql_select04.jpg)   
    
 * 산술 연산 시, NULL이 포함된 경우는 무조건 NULL로 조회가 된다.   
+   
    
 -   
      
@@ -134,8 +137,9 @@ SELECT 컬럼 "별칭"
 컬럼명이 복잡하거나 한 번에 알아보기 힘들 경우 컬럼에 별칭을 지정해 줄 수 있다.   
    
 * 숫자 혹은 특수문자가 포함되는 경우에는 (" ") 사용   
-* AS 생략 가능   
-     
+* AS 생략 가능 
+   
+   
 -    
    
 
@@ -317,6 +321,7 @@ WHERE HIRE_DATE BETWEEN '90/01/01' AND '01/01/01';
 -
    
 **AND 연산 결과**   
+   
 |TRUE|FALSE|NULL|
 |---|---|---|---|
 |TRUE|TRUE|FALSE|NULL|
@@ -326,6 +331,7 @@ WHERE HIRE_DATE BETWEEN '90/01/01' AND '01/01/01';
 -
    
 **OR 연산 결과**   
+   
 |TRUE|FALSE|NULL|
 |---|---|---|---|
 |TRUE|TRUE|TRUE|TRUE|
@@ -532,5 +538,5 @@ WHERE DEPT_CODE IN('D1', 'D2', 'D3');
 |7|논리 연산자 – AND|
 |8|논리연산자 – OR|   
    
-   
+
 ***
