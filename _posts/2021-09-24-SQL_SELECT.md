@@ -102,15 +102,16 @@ SELECT EMP_NAME, HIRE_DATE, SYSDATE - HIRE_DATE
 FROM EMPLOYEE;
 
 -- 오늘 날짜 : SYSDATE
-```   
-
--
+```  
 
      
 ![Alt text](/assets/images/sql_select05.jpg)   
    
 * 숫자가 아니어도 산술 연산이 가능하다.   
 * 오늘 날짜 : SYSTDATE   
+
+-
+
    
 ```
 SELECT EMP_NAME, HIRE_DATE, CEIL(SYSDATE - HIRE_DATE)

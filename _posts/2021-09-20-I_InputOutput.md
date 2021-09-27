@@ -14,13 +14,15 @@ categories: ['Programming', 'Java']
 #### 바이트 기반 스트림
 * 바이트 기반 스트림
    
-**InputStream(입력)**
+**InputStream(입력)**   
+   
 * 바이트 기반 입력 스트림의 최상위 추상 클래스
 * close() 필수
 * 하위 클래스 : xxxInputStream
     * ex) FileInputStream / BufferedInputStream / DataInputStream   
    
-**InputStream의 메서드**
+**InputStream의 메서드**   
+   
 |리턴 타입|메서드|설명|
 |------|---|---|
 |int|read()|입력 스트림으로부터 1바이트를 읽고 읽은 바이트 리턴|
@@ -29,13 +31,15 @@ categories: ['Programming', 'Java']
 |void|close()|사용한 시스템 자원 반납 후 입력 스트림을 닫음|   
    
    
-**OutputStream(출력)**
+**OutputStream(출력)**   
+   
 * 바이트 기반 출력 스트림의 최상위 추상 클래스
 * close() 필수
 * 하위 클래스 : xxxOutputStream
     * ex) FileOutputStream / BufferedOutputStrema / DataOutputStream / PrintStream
     
-**OutputStream의 메서드**
+**OutputStream의 메서드**   
+   
 |리턴 타입|메서드|설명|
 |------|---|---|
 |void|write(int b)|출력 스트림으로 1바이트를 보냄|
@@ -47,12 +51,14 @@ categories: ['Programming', 'Java']
 #### 문자 기반 스트림
 * 문자만 주고 받을 수 있음   
    
-**Reader(입력)**
+**Reader(입력)**   
+   
 * 문자 기반 입력 스트림의 최상위 추상 클래스
 * 하위 클래스 : FileReader
     * ex) FileReader / InputStreamReader / BufferedReader
    
-**Reader의 메서드**
+**Reader의 메서드**   
+   
 |리턴 타입|메서드|설명|
 |------|---|---|
 |int|read()|입력 스트림으로부터 한 개의 문자를 읽고 리턴|
@@ -61,12 +67,14 @@ categories: ['Programming', 'Java']
 |void|close()|사용한 시스템 자원 반납 후 입력 스트림을 닫음|   
    
 
-**Writer(출력)**
+**Writer(출력)**   
+   
 * 문자 기반 출력 스트림의 최상위 추상 클래스
 * 하위 클래스 : FileWriter
     * ex) FileWriter / InputStreamWriter / BufferedWriter / PrintWriter
    
-**Writer의 메서드**
+**Writer의 메서드**   
+   
 |리턴 타입|메서드|설명|
 |------|---|---|
 |void|write(int c)|출력 스트림으로 매개 값이 주어진 한 문자를 보냄|
@@ -90,7 +98,8 @@ File file = new File("C:/data/test.txt");
    
 * directory 생성도 가능   
    
-**파일 디렉토리 생성 및 삭제 메서드**
+**파일 디렉토리 생성 및 삭제 메서드**   
+   
 |리턴 타입|메서드|설명|
 |------|---|---|
 |boolean|createNewFile()|새로운 파일 생성|
@@ -98,7 +107,8 @@ File file = new File("C:/data/test.txt");
 |boolean|mkdirs()|경로 상에 없는 모든 디렉토리 생성|
 |boolean|delete()|파일 또는 디렉토리 삭제|   
    
-**파일/디렉토리 정보 리턴 메소드**
+**파일/디렉토리 정보 리턴 메소드**   
+   
 |리턴 타입|메서드|설명|
 |------|---|---|
 |boolean|canExcute()|실행할 수 있는 파일인지 여부|
@@ -119,7 +129,8 @@ File file = new File("C:/data/test.txt");
 |File[]|listFile(FilenameFilterfilter)|디렉토리에 포함된 파일 및 서브 디렉토리 목록 중FilenameFilter에 맞는 것만 File배열로 리턴|
    
 
-**FileInputStream**
+**FileInputStream**   
+   
 * 파일을 바이트 단위로 읽을 때 사용
 * 모든 종류의 파일 읽기 가능
 * InputStream 의 하위 클래스로 InputStream과 사용법 동일
@@ -130,7 +141,8 @@ File file = new File("C:/data/test.txt");
 FileInputStream fis = new FileInputStream("C:/data/test.txt");
 ```   
    
-**FileOutputStream**
+**FileOutputStream**   
+   
 * 바이트 단위로 저장할 때 사용
 * 모든 종류의 파일 저장 가능
 * OutputStream의 하위 클래스로 OutputStream과 사용법 동일
@@ -145,12 +157,14 @@ FileOutputStream fos = new FileOutputStream("C:/data/test.txt");
 FileOutputStream fos = new FileOutputStream("C:/data/test.txt", true);
 ```
    
-**FileReader**
+**FileReader**   
+   
 * 텍스트 파일로부터 문자 단위로 읽을 때 사용
 * 그림, 오디오, 비디오 파일은 읽기 불가
 * Reader의 하위 클래스로 Reader와 사용 방법 동일   
    
-**FileWriter**
+**FileWriter**   
+   
 * 텍스트 파일을 문자 단위로 저장 시 사용
 * 그림, 오디오, 비디오 파일 저장 불가
 * Writer의 하위 클래스로 Writer와 사용 방법 동일   
@@ -172,24 +186,28 @@ bis.read(); //보조스트림으로부터 데이터 읽어옴
 * 기본 데이터 타입 출력(DataInputStream, DataOutputStream)
 * 객체 입출력(ObjectInputStream/ObjectOutputStream) 등
    
-**문자 변환 보조 스트림**
+**문자 변환 보조 스트림**   
+   
 * InputStreamReader, OutputStreamWriter
 * 소스 스트림이 바이트 기반 스트림이지만 데이터가 문자일 경우 사용
 * Reader와 Writer는 문자 단위로 입출력을 하기 때문에 데이터가 문자인 경우 바이트 기반 스트림보다 편리하게 사용 가능
    
 
-**성능 향상 보조 스트림**
+**성능 향상 보조 스트림**   
+   
 * BufferedInputStream/Reader, BufferedOutputStream/Writer
 * 느린 속도로 인해 입출력 성능에 영향을 미치는 입출력 소스를 이용하는 경우 사용
 * 입출력 소스와 직접 작업하지 않고 버퍼에 데이터를 모아 한꺼번에 작업을 하여 실행 성능 향상(입출력 횟수 줄임)
    
    
-**기본 타입 입출력 보조 스트림**
+**기본 타입 입출력 보조 스트림**   
+   
 * 기본 자료형 별 데이터 읽고 쓰기가 가능하도록 기능 제공
 * 입력된 자료형의 순서와 출력될 자료형의 순서 일치 필수   
    
 
-**객체 입출력 보조 스트림**
+**객체 입출력 보조 스트림**   
+   
 * 객체를 파일 또는 네트워크로 입출력 할 수 있는 기능 제공
 * 객체는 문자가 아니므로 바이트 기반 스트림으로 데이터를 변경해주는 직렬화 필수
 
