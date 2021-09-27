@@ -160,8 +160,8 @@ ArrayList<? extends Product> list1 = new ArrayList<Product>();
 ArrayList<? extends Product> list2 = new ArrayList<Tv>();
 ArrayList<? extends Product> list3 = new ArrayList<Audio>();
 ```   
-   
-   * <? super T>  와일드 카드의 하한 제한. T와 그 조상들만 가능   
+
+    * <? super T>  와일드 카드의 하한 제한. T와 그 조상들만 가능   
    
 ```java
 ArrayList<? super Tv> list4 = new ArrayList<Tv>();
@@ -169,9 +169,10 @@ ArrayList<? super Tv> list5 = new ArrayList<Product>();
 // ArrayList<? super Tv> list6 = new ArrayList<Audio>(); // Audio는 Tv와 형제 관계이기 때문에 불가
 ```   
    
-   * <?>  제한 없음. 모든 타입 가능. <? extends Object>와 동일   
+    * <?>  제한 없음. 모든 타입 가능. <? extends Object>와 동일   
       
-* 메서드의 매개 변수에도 사용 가능   
+    * 메서드의 매개 변수에도 사용 가능  
+     
 ``` java
 public Juice method1(FruitBox<? extends Fruit> box) {
 		...
