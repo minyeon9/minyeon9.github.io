@@ -1,0 +1,15 @@
+---
+layout: single
+title: "SQL 함수(Function) - GROUP BY / HAVING / 집합 연산자"
+categoris: ['Programming', 'oracle']
+---
+
+#### 함수(Fuction)
+* 프로그램에서 반복 사용되는 부분을 분리하여 작성해 놓은 서브 프로그램   
+* 호출하여 값을 전달하고 값을 리턴   
+* 단일 행 함수
+    * 각 행마다 반복 적용
+    * 입력 받은 행의 개수만큼 결과 반환
+* 그룹 함수
+    * 특정 행의 집합
+    * 그룹 1개 당 1개의 결과 반환  
