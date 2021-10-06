@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "SQL 함수(Function) - GROUP BY / HAVING / 집합 연산자"
+title: "SQL - GROUP BY / HAVING / 집합 연산자"
 categoris: ['Programming', 'oracle']
 ---
 
