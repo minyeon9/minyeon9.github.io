@@ -1,5 +1,5 @@
 ---
 layout: single
-title: "SQL - ALTER / DROP"
+title: "SQL - INSERT / UPDATE"
 categoris: ['Programming', 'oracle']
 ---
