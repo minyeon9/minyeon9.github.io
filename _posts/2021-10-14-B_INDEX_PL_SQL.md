@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "SQL - TCL"
+title: "SQL - INDEX / PL/SQL"
 categoris: ['Programming', 'oracle']
 ---
 
