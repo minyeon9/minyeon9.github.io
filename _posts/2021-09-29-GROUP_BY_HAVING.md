@@ -14,7 +14,7 @@ categoris: ['Programming', 'oracle']
 SELECT 컬럼명
 FROM 테이블명
 WHERE 조건식
-ORDER BY [컬럼명] [ASC / DESC] [NULLS FIRST / NULLS LAST]
+ORDER BY [컬럼명] [ASC / DESC] [NULLS FIRST / NULLS LAST];
 ```   
    
 ![Alt text](/assets/images/order_by01.jpg)  
@@ -75,7 +75,7 @@ E_NAME 정렬 시, NULL에 대한 정렬 옵션을 지정하지 않았기 때문
 ```
 SELECT 컬럼명
 FROM 테이블명
-GROUP BY 그룹으로 사용 할 컬럼명
+GROUP BY 그룹으로 사용 할 컬럼명;
 ```   
    
 ![Alt text](/assets/images/group_by01.jpg)  
@@ -109,7 +109,7 @@ GROUP BY 절에 학년을 기술하여 사용하였다.
 SELECT 컬럼명
 FROM 테이블명
 GROUP BY 그룹으로 사용 할 컬럼명
-HAVING 그룹 조건
+HAVING 그룹 조건;
 ```   
     
 ![Alt text](/assets/images/having01.jpg)  
@@ -174,10 +174,8 @@ CUBE는 모든 컬럼 조합의 합계를 반환한다.
    
 ```
 SELECT 구문
-
 UNION
-
-SELECT 구문
+SELECT 구문;
 ```   
    
 ![Alt text](/assets/images/union01.jpg)  
@@ -208,10 +206,8 @@ SELECT 구문
    
 ```
 SELECT 구문
-
 UNION ALL
-
-SELECT 구문
+SELECT 구문;
 ```   
    
 ![Alt text](/assets/images/union04.jpg)  
