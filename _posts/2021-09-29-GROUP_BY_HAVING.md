@@ -19,20 +19,21 @@ ORDER BY [컬럼명] [ASC / DESC] [NULLS FIRST / NULLS LAST]
    
 ![Alt text](/assets/images/order_by01.jpg)  
    
-FURITS 테이블을 조회한 모습니다.   
+FURITS 테이블을 조회한 모습이다.   
 
 -
 
 ![Alt text](/assets/images/order_by02.jpg)  
    
-FURITS 테이블을 조회할 때 'NO'를 내림차순으로 조회힌다.   
+FURITS 테이블을 조회할 때 [DESC]를 이용하여   
+'NO'를 내림차순으로 조회한다.   
 
 -
 
 ![Alt text](/assets/images/order_by03.jpg)  
    
-이번엔 과일의 한글표기법을 기준으로 정렬했다.   
-가나다 순으로 조회되는 것을 볼 수 있다.   
+이번엔 과일의 **한글**을 기준으로 정렬했다.   
+**가나다 순**으로 조회되는 것을 볼 수 있다.   
 반대로 정렬하고 싶을 경우 DESC를 사용하면 된다.   
    
 -
@@ -47,10 +48,10 @@ FURITS 테이블을 조회할 때 'NO'를 내림차순으로 조회힌다.
    
 컬럼을 하나 추가했고, 한글이름은 '배', 영어이름은 NULL로 지정했다.   
    
-NULLS FIRST / NULLS LAST를 테스트 해 볼 것이다.   
-이 두 옵션은 NULL 값이 있을 때의 정렬 방식을 지정한다.   
+**NULLS FIRST / NULLS LAST**를 테스트 해 볼 것이다.   
+이 두 옵션은 **NULL 값이 있을 때의 정렬 방식을 지정**한다.   
    
-NULL값   
+NULL값은   
 오름 차순일 때는 마지막에 조회   
 내림 차순일 때는 처음에 조회된다.    
    
@@ -61,14 +62,8 @@ E_NAME 정렬 시, NULL에 대한 정렬 옵션을 지정하지 않았기 때문
 
 ![Alt text](/assets/images/order_by06.jpg) 
    
-내림 차순으로 정렬할 경우 NULL이 제일 먼저 조회되는 것을 볼 수 있다.   
+내림 차순으로 정렬할 경우 NULL이 제일 먼저 조회되는 것을 볼 수 있다.    
    
--
-   
-![Alt text](/assets/images/order_by07.jpg) 
-   
-내림차순 / NULLS LAST   
-  
 ***
 
 #### GROUP BY
@@ -131,15 +126,40 @@ GROUP 에 대한 조건은 꼭 HAVING으로 할 것!
 * 가장 먼저 지정한 그룹 별로 추가 집계 결과 반환
    
 ```
-ROLLPU(컬럼1, 컬럼2, ... 컬럼N)
+SELECT 컬럼1, 컬럼2, ...
+FROM 테이블명
+GROUP BY ROLLUP(컬럼1, 컬럼2, ... 컬럼N);
 ```   
    
+![Alt text](/assets/images/rollup01.jpg)  
+   
+학년, 반으로 GROUP을 지정하고, ROLLUP도 지정했다.   
+ROLLUP 괄호 안에서 제일 첫번째 그룹의 집계를 함께 조회해주기 때문에   
+   
+1학년, 각 반의 그룹을 조회하고 총 점수를 출력해주는 걸 볼 수 있다.
+순서대로 2학년, 3학년도 바로 아래 각각 조회되었다. 
+맨 마지막 10번째 행은 1-3학년 모든 학생의 총 점수이다.
+
 ***
 
 #### CUBE
 * 합계 반환
 * 모든 조합의 집계 결과 반환
-
+   
+```
+SELECT 컬럼1, 컬럼2, ...
+FROM 테이블명
+GROUP BY CUBE(컬럼1, 컬럼2, ... 컬럼N);
+```      
+   
+![Alt text](/assets/images/cube01.jpg)  
+   
+ROLLUP이 첫번째 그룹에 대한 합게를 반환했다면   
+CUBE는 모든 컬럼 조합의 합계를 반환한다.   
+   
+조회 결과가 길어져서 두 개의 컬럼만 조회해서 캡쳐했지만..   
+여러 컬럼을 조회해보면 정말 조합별로 모든 합계를 출력해준다.   
+   
 ***
 
 #### 집합 연산자
@@ -211,6 +231,8 @@ UNION ALL은 UNION과 같지만 중복을 포함한다는 차이가 있다.
 2) 예체능 학과생인   
 김철수 학생만 조회되었다.   
    
+***
+
 #### MINUS(차집합)
 * 선행 SELECT 결과에서 다음 SELECT 결과와 겹치는 영역을 제외하고 남은 부분 추출
    
@@ -226,7 +248,7 @@ UNION ALL은 UNION과 같지만 중복을 포함한다는 차이가 있다.
    
 -
    
-![Alt text](/assets/images/union07.jpg)  
+![Alt text](/assets/images/union08.jpg)  
    
 첫번째 조회 결과에서 두번째 조회 결과를 제외시킨다.
 해당 되는 행은 김철수 학생의 행이기 때문에
@@ -235,7 +257,7 @@ UNION ALL은 UNION과 같지만 중복을 포함한다는 차이가 있다.
 *** 
 
 #### GROUPIN SETS
-* 그룹 별로 처리된 **여러 개의 SELECT문을 하나로 합친 결과**로 원할 때 사용
+* 그룹 별로 처리된 **여러 개의 SELECT문을 하나로 합친 결과**로 조회하고자 할 때 사용
 * 집합 연산자 사용과 동일
 * 컬럼의 개수와 타입 동일 필수
 * 첫번째 쿼리의 컬럼 명으로 조회
@@ -246,29 +268,30 @@ FROM 테이블병
 GROUP BY GROUPING SETS(컬럼1, 컬럼2);
 ```   
    
-![Alt text](/assets/images/union08.jpg)  
+![Alt text](/assets/images/union09.jpg)  
    
 첫번째 조회 결과.   
    
-- 
+-
    
-![Alt text](/assets/images/union09.jpg)  
+![Alt text](/assets/images/union10.jpg)  
    
 두번째 조회 결과.   
    
 -
    
-![Alt text](/assets/images/union10.jpg)  
+![Alt text](/assets/images/union11.jpg)  
    
 집합연산자를 사용하여 두 개의 결과물을 하나로 합하였다.   
 이 쿼리문을 줄여서 사용할 수 있는 것이 GRUPING SET이다.   
    
 -
    
-![Alt text](/assets/images/union11.jpg)  
+![Alt text](/assets/images/union12.jpg)  
    
 GROUPING SETS를 이용하여   
 GROUP BY 절에 있던 컬럼을 모두 기술하여 하나의 조회 결과로 합하였다.   
 코드가 좀 더 간결해졌다.   
 필요에 따라 사용하면 된다.   
   
+***
