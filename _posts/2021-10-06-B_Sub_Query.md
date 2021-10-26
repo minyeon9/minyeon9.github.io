@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "SQL - Sub Query"
+title: "SQL - SUBQUERY"
 categoris: ['Programming', 'oracle']
 ---
 
@@ -51,7 +51,7 @@ SUBQUERY로 사용했다. 결과는 2번 이미지와 동일하다.
 * SUBQUERY의 조회 결과가 1개
 * 비교 연산자 사용 가능 (=, !=, <>, ^=, >, <, >=, <=, ...)
    
-위 예제처럼 SUBQUERY의 조회 결과가 1개일 때를 말한다.  
+위의 '이은지' 학생 예제처럼 SUBQUERY의 조회 결과가 1개일 때를 말한다.  
 위에서는 비교연산자 중 = 기호를 사용하여 조회했다.    
    
 ***
