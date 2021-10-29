@@ -68,3 +68,58 @@ CRATE TABLE 테이블명 (
 ```   
    
 ***
+
+#### SUBQUERY를 이용한 테이블 생성
+* SELECT 문의 조회 결과로 테이블 생성
+* 컬럼명과 데이터 타입, 값이 복사 / 제약 조건은 NOT NULL만 복사
+   
+![Alt text](/assets/images/order_by01.jpg)  
+   
+-
+   
+![Alt text](/assets/images/order_by02.jpg)  
+   
+위 이미지에 있는 'CLASS' 테이블을 복사한다.   
+실습을 위해서 제약조건을 추가했다.   
+      
+###### 1) 전체 복사
+   
+```
+CREATE TABLE 테이블명
+AS SELECT * FROM 복사할 테이블명;
+```   
+   
+![Alt text](/assets/images/order_by03.jpg)  
+   
+컬럼명, 데이터 값이 복사 되었다.   
+   
+-
+   
+![Alt text](/assets/images/order_by04.jpg)  
+   
+데이터 타입.. 복사된 건 캡쳐를 못 했지만..   
+NOT NULL 제약 조건까지 잘 복사된 걸 확인할 수 있다.   
+   
+***
+   
+###### 2) 구조만 복사
+   
+```
+CREATE TABLE 테이블명
+AS SELECT *
+	 FROM 복사할 테이블명
+	 WHERE 1 = 0;
+```   
+   
+* WHERE 1 = 0;
+    * 모든 컬럼에 만족하는 값이 없기 때문에 구조만 복사 됨(FALSE)
+
+이번에는 데이터 값을 제외한 것들을 복사하는 방법이다.   
+   
+![Alt text](/assets/images/order_by05.jpg)  
+   
+전체 복사와 동일하고 WHERE절에 추가된 것만 다르다.   
+조건(WHERE)에 FALSE 만 들어가면 되기 때문에   
+1 = 2; 아무거나 해도 된다.   
+   
+***
