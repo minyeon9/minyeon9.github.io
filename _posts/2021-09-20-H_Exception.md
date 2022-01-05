@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "예외 처리(Exception)"
-categories: ['Programing', 'Java']
+categories: ['Java']
 ---
    
 #### 예외 처리(Exception)

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "평가"
+categories: ['Java']
 ---
    
 #### 평가

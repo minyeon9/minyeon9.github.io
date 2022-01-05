@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "SQL - ORDER BY / GROUP BY / HAVING / 집합 연산자"
-categoris: ['Programing', 'oracle']
+categories: ['Programing', 'Oracle']
 ---
 
 #### ORDER BY

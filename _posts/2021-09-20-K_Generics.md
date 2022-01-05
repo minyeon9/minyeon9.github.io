@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "제네릭스(Generics)"
-categories: ['Programing', 'Java']
+categories: ['Java']
 ---
    
 #### 제네릭스(Generics)

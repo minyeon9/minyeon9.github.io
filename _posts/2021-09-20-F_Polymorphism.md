@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "다형성(Polymorphism)"
-categories: ['Programing', 'Java']
+categories: ['Java']
 ---
    
 #### 다형성(Polymorphism) 
