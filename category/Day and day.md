@@ -1,7 +1,4 @@
 ---
-
 layout: category
-
-title: Java
-
+title: Day and day
 ---

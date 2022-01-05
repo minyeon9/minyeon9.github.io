@@ -12,11 +12,11 @@
     {% endfor %}
     {% if page.sidebar.nav %}
       
-<ul>
-  {% for category in site.categories %}
-  <li>{{% category | first %}} {{ category | last | size }}</li>
-  {% endfor %}
-</ul>
+      <ul>
+        {% for category in site.categories %}
+        <li><a href="/category/{{ category | first }}">{{% category | first %}} {{ category | last | size }}</a></li>
+        {% endfor %}
+      </ul>
 
       {% include nav_list nav=page.sidebar.nav %}
     {% endif %}
