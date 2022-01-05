@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "입출력(I/O)"
-categories: ['Programming', 'Java']
+categories: ['Programing', 'Java']
 ---
    
 #### 입출력(I/O)

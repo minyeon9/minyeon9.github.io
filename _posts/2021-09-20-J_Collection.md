@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "컬렉션(Collection)"
-categories: ['Programming', 'Java']
+categories: ['Programing', 'Java']
 ---
    
 #### 컬렉션(Collection)

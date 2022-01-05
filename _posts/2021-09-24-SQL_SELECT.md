@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "SQL DML - SELECT"
-categoreis: ['Programming', 'Oracle']
+categoreis: ['Programing', 'Oracle']
 ---
    
 #### SQL

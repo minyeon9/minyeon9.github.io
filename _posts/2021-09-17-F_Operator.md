@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "연산자(Operator)"
-categories: ['Programming', 'Java']
+categories: ['Programing', 'Java']
 ---
 
 #### 1. 논리 부정 연산자

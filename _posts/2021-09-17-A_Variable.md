@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "변수(Variable)"
-categories: ['Programming', 'Java']
+categories: ['Programing', 'Java']
 ---
 
 #### 1. 변수(Variable)란   

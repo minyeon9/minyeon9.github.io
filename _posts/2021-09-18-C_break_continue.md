@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "제어문 - 분기문"
-categories: ['Programming', 'Java']
+categories: ['Programing', 'Java']
 ---
    
 #### break

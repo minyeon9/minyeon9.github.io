@@ -1,6 +1,6 @@
 ---
 layout: single
 title: "SQL - FUNCTION / TRIGGER"
-categoris: ['Programming', 'oracle']
+categoris: ['Programing', 'oracle']
 ---
 
