@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "SQL - SUBQUERY"
-categories: ['Programing', 'Oracle']
+categories: ['Oracle']
 ---
 
 #### SUBQUERY

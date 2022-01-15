@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "SQL - CONSTRAINTS"
-categories: ['Programing', 'Oracle']
+categories: ['Oracle']
 ---
 
 #### 제약 조건(CONSTRAINTS)
