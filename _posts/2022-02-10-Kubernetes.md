@@ -28,7 +28,7 @@ categories: ['Cloud']
 ***
 
 #### 설치
-* Dokker Desktop으로 설치
+* Docker Desktop으로 설치
    
 ***
 
