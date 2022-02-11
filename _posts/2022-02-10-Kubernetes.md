@@ -145,9 +145,34 @@ kubctl api-resources
 ***
 
 #### Yaml 파일로 Pod 생성하기
+* 실습 때는 vsCode 에서 yaml 파일 생성했음
+    * 하위 설정 작성 시에는 2개의 스페이스로 구분(tab안 안 되지만 vsCode에서 알아서 처리해줌)
+```
+# kuweb-pod.yaml 파일 생성
+
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: kuweb-pod
+  labels:
+    name: kuweb-label
+spec:
+  containers:
+    - name: kuweb
+      image: testweb:1.0
+      resources:
+        limits:
+          memory: "128Mi"
+          cpu: "500m"
+      ports:
+      - containerPort: 8080
+        protocol: TCP
+```
    
 ```
 kubectl apply -f <Yaml 파일 경로> [옵션]
+
+kubectl apply -f 
 ```
    
 ***
@@ -159,11 +184,6 @@ kubectl delete pods <Pod명 | -l label | --all> [옵션]
 ```   
 
 ***
-
-
-
-
-
 
 
 
