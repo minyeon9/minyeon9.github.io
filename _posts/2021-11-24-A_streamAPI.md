@@ -68,6 +68,8 @@ stream.forEach((s) -> {System.out.println(s);});
 list.stream().forEach(s -> System.out.println(s));
 ```   
    
+***
+   
 #### 배열로부터 Stream 얻기
 * Array.stream(배열) 메서드 사용 또는 각 스트림(Stream, IntStream, ...)의 of() 메서드 사용
    
