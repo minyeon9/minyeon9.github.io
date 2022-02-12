@@ -176,6 +176,7 @@ names.stream()
 #### 요소가 기본 자료형일 경우 정렬
 * 기본 자료형의 Stream은 오름차순으로 정렬
    * 내림차순으로 정렬하고 싶을 경우: 객체로 생성(boxed) 후 Comparator의 reverseOrder() 사용
+    
 ```
 Arrays.stream(new int[] {5, 2, 4, 3, 1})
         .sorted()
