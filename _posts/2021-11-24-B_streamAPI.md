@@ -85,7 +85,7 @@ List<Student> list = Arrays.asList(
 ```
 list.stream()
     .map(student -> student.getName()) // student를 대체하는 새로운 요소 생성(이름만 리턴하도록)
-    .forEach(name -> System.out.println(name));
+    .forEach(name -> System.out.print(name + " "));
     // 출력 결과: 이원석 하윤기 이정현
 ```
    
