@@ -177,9 +177,9 @@ System.out.println(findFirst.getAsInt());
 * ifPresent(Consumer) : 값이 저장되어 있을 경우 Consumer에서 값을 처리
    
 ***
-
-**빈 값 처리 방법 1**
-* if문 사용
+   
+**isPresent()**
+* 값이 저장되어 있는지 확인
    
 ```
 // 값이 없는 빈 객체
@@ -209,7 +209,7 @@ OptionalDouble.empty를 출력한다.
    
 ***
 
-**빈 값 처리 방법 2**
+**orElse()**
 * default값 설정
    
 ```
@@ -221,7 +221,7 @@ System.out.println(avg); // 출력 0.0
 ```
 ***
 
-**빈 값 처리 방법 3**
+**ifPresent()**
 * 집계 값을 처리하는 Consumer 등록
    
 ```
