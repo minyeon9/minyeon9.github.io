@@ -156,5 +156,7 @@ kubectl delete deploy <deploy명 | -l label | --all> [옵션]
 
 kubectl delete deploy kuweb-deployment
 ```
+   
+***
 
 
