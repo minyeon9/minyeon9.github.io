@@ -24,6 +24,7 @@ categories: ['Framework']
 ***
 
 #### Framework 종류
+   
 |구분|설명|종류|
 |---|---------|-----|
 |영속성|데이터의 저장, 조회, 변경, 삭제를 다루는 클래스 및 설정 파일들을 라이브러리화하여 구현한 프레임워크|Mybatis, Hibernate|
@@ -45,17 +46,17 @@ categories: ['Framework']
    
 -
    
-![Alt text](/assets/images/java/framework/setting01.jpg)   
+![Alt text](/assets/images/framework/setting01.jpg)   
    
 -
    
-![Alt text](/assets/images/java/framework/setting02.jpg)   
+![Alt text](/assets/images/framework/setting02.jpg)   
    
 표시된 버전으로 다운 받기
    
 -
    
-![Alt text](/assets/images/java/framework/setting03.jpg)   
+![Alt text](/assets/images/framework/setting03.jpg)   
    
 압축 풀고 해당 폴더로 들어가면 실행파일이 있다.   
 이제 이걸로 실습 시작!
