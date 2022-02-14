@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Framework / Setting"
-categories: ['Framework']
+categories: ['Java']
 ---
 
 #### Framework
