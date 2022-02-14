@@ -57,13 +57,13 @@ categories: ['Framework']
 #### maven 다운로드
 * [maven]
    
-![Alt text](/assets/images/java/maven/maven01.jpg)   
+![Alt text](/assets/images/maven/maven01.jpg)   
    
 위에 표시된 걸로 다운로드 받기
    
 -
    
-![Alt text](/assets/images/java/maven/maven02.jpg)   
+![Alt text](/assets/images/maven/maven02.jpg)   
    
 window - preferences - maven - installations   
 Add 버튼 클릭해서 다운 받은 maven 추가하기.   
@@ -71,7 +71,7 @@ Add 버튼 클릭해서 다운 받은 maven 추가하기.
    
 -
    
-![Alt text](/assets/images/java/maven/maven03.jpg)   
+![Alt text](/assets/images/maven/maven03.jpg)   
    
 window - preferences - maven - user settings   
 브라우저 버튼 클릭하고 해당 경로에 있는 settings.xml로 설정해주기.   
@@ -80,26 +80,26 @@ window - preferences - maven - user settings
 
 #### maven project 생성
    
-![Alt text](/assets/images/java/maven/maven04.jpg)   
+![Alt text](/assets/images/maven/maven04.jpg)   
    
 메이븐 프로젝트 열기
    
 -
    
-![Alt text](/assets/images/java/maven/maven05.jpg)   
+![Alt text](/assets/images/maven/maven05.jpg)   
    
 maven-archetype-quickstart 검색해서 선택하기.   
 이건 이번에만 이렇게 해보는 거라고 하셨음. 간단한 실습용으로.   
    
 -
    
-![Alt text](/assets/images/java/maven/maven06.jpg)   
+![Alt text](/assets/images/maven/maven06.jpg)   
    
 표시된 거처럼 적어주고 finish 버튼 클릭해서 프로젝트 생성하기.   
    
 -
    
-![Alt text](/assets/images/java/maven/maven07.jpg)   
+![Alt text](/assets/images/maven/maven07.jpg)   
    
 ***
 
@@ -107,7 +107,7 @@ maven-archetype-quickstart 검색해서 선택하기.
 * [라이브러리 관련 정보 제공 사이트]
 * 위 사이트 접속 후 필요한 라이브러리 검색
    
-![Alt text](/assets/images/java/maven/maven08.jpg)   
+![Alt text](/assets/images/maven/maven08.jpg)   
    
 버전 정보 클릭하기.   
 artifact 블라블라 경고창 뜨는 건 강사님이 나중에 알려주신다고 함..   
@@ -115,20 +115,20 @@ oracle 버전 관련해서 뭐라고 하는 거 같았음.
    
 -
    
-![Alt text](/assets/images/java/maven/maven09.jpg)   
+![Alt text](/assets/images/maven/maven09.jpg)   
    
 코드 부분을 클릭하면 자동으로 복사가 된다.   
    
 -
    
-![Alt text](/assets/images/java/maven/maven10.jpg)   
+![Alt text](/assets/images/maven/maven10.jpg)   
    
 pom.xml 파일에 복사한 코드를 추가했다.   
 이렇게만 하면 라이브러리가 추가된다니.   
    
 -
    
-![Alt text](/assets/images/java/maven/maven11.jpg)   
+![Alt text](/assets/images/maven/maven11.jpg)   
    
 프로젝트에서 해당 폴더를 보면 추가해준 라이브러리가 잘 추가되어 있는 것을 확인 할 수 있다.   
 나머지는 수업 때 다 같이 추가한 라이브러리들.   
@@ -137,14 +137,14 @@ pom.xml 파일에 복사한 코드를 추가했다.
    
 -
    
-![Alt text](/assets/images/java/maven/maven12.jpg)   
+![Alt text](/assets/images/maven/maven12.jpg)   
    
 실제 다운로드된 위치는 위와 같다. 신기하다...
 어떻게 된 건데..?ㅋㅋㅋ 난 코드만 추가했는데.
    
 -
    
-![Alt text](/assets/images/java/maven/maven13.jpg)   
+![Alt text](/assets/images/maven/maven13.jpg)   
    
 위에서 프로젝트 maven 세팅할 때 추가했던 settings.xml에   
 라이브러리가 다운로드 되는 경로가 지정되어 있다고 한다.   
