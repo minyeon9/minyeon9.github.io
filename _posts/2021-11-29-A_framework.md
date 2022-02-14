@@ -46,17 +46,17 @@ categories: ['Framework']
    
 -
    
-![Alt text](/assets/images/framework/setting01.jpg)   
+![Alt text](/assets/images/framework/setting/setting01.jpg)   
    
 -
    
-![Alt text](/assets/images/framework/setting02.jpg)   
+![Alt text](/assets/images/framework/setting/setting02.jpg)   
    
 표시된 버전으로 다운 받기
    
 -
    
-![Alt text](/assets/images/framework/setting03.jpg)   
+![Alt text](/assets/images/framework/setting/setting03.jpg)   
    
 압축 풀고 해당 폴더로 들어가면 실행파일이 있다.   
 이제 이걸로 실습 시작!
