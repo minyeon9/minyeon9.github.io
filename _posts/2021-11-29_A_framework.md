@@ -64,7 +64,7 @@ categories: ['Framework']
    
 처음 이클립스 설정했던 것과 동일하게   
 Encoding, Complier, Sever(tomcat) 설정 해주기.   
-추가로 lombok도 추가해줬다. lombok 게시글에서 한 거랑 똑같음.
+추가로 lombok도 추가해줬다. lombok 게시글에서 한 거랑 똑같음.   
    
 ***
 
