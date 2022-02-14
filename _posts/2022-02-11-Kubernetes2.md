@@ -78,7 +78,7 @@ kubectl describe rs kuweb-replicaset
    
 ***
 
-#### ReplicaSet 으로 생성된 Pod 정보 확인
+#### ReplicaSet으로 생성된 Pod 정보 확인
 * po : 명령어 pods
 * Pod명은 Replicaset 이름+16진수 랜덤 값으로 자동 생성
    
