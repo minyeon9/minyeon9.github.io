@@ -30,7 +30,7 @@ categories: ['Framework']
 
 #### pom.xml의 구성
    
-```
+``` xml
 <project>
     <modelVersion>4.0.0</modelVersion> <!-- Maven version 정보 : Maven 2 버전 이후 POM의 경우 항상 4.0.0 -->
     <groupId>com.kh</groupId> <!-- 최초 만든 패키지 1, 2레벨 --> 
