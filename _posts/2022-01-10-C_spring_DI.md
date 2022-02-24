@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Spring - DI 실습"
+title: "Spring - DI(생성자)"
 categories: ['Framework']
 ---
 
@@ -103,7 +103,7 @@ public class Owner {
    
 ***
 
-#### 다형성을 이용하여 결합도 낮추기
+#### 생성자를 통한 의존성 주입
    
 **Pet interface 생성**
    
