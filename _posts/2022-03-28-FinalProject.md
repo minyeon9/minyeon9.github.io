@@ -375,10 +375,4 @@ categories: ['Java']
 
 
 
-[canva]: https://www.canva.com/
-[figma]: https://www.figma.com/
-[notion]: https://www.notion.so/
-[메인화면 참고]: https://dribbble.com/shots/6985239-Choose-Your-Side
-[google icon]: https://fonts.google.com/icons
-[스크럼]: https://www.youtube.com/watch?v=2ukuT00ubuk
 
