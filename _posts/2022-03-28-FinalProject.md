@@ -38,7 +38,7 @@ categories: ['Java']
     * 주제 선정 이유 / 유사 사이트 분석 / 카카오 오븐을 통해 UI 정리
   * 팀명 생각해오기
    
-![Alt text](/assets/images/framework/final_project/final_project01.png)   
+![Alt text](/assets/images/final_project/final_project01.png)   
    
 * 생각했던 날짜보다 빠르게 선정 됐고, 9개의 아이디어 중 2개를 결합했던 10번의 아이디어가 선택됐다.
    
@@ -65,27 +65,27 @@ categories: ['Java']
     
 -
    
-![Alt text](/assets/images/framework/final_project/final_project02.png)   
+![Alt text](/assets/images/final_project/final_project02.png)   
    
 * 주제 선정 이유 / 유사 사이트 분석 / 로고 제작
    
 -
    
-![Alt text](/assets/images/framework/final_project/final_project03.png)   
+![Alt text](/assets/images/final_project/final_project03.png)   
    
 * 내가 생각해 본 화면
    
 -
    
-![Alt text](/assets/images/framework/final_project/final_project04.png)   
+![Alt text](/assets/images/final_project/final_project04.png)   
    
 * 최종 결정된 메뉴 구조도
    
 -
    
-![Alt text](/assets/images/framework/final_project/final_project05.png)   
+![Alt text](/assets/images/final_project/final_project05.png)   
    
-![Alt text](/assets/images/framework/final_project/final_project06.gif)   
+![Alt text](/assets/images/final_project/final_project06.gif)   
    
 * 테스트로 구현해 본 메인. 화면 녹화를 화면 될 것을.. 팀원들한테 빨리 보여주고 싶은 마음에ㅋㅋㅋ 한 손으로는 핸드폰으로 영상 찍고, 한 손은 마우스질.
 
@@ -120,14 +120,14 @@ categories: ['Java']
    
 -
    
-![Alt text](/assets/images/framework/final_project/final_project07.png)   
+![Alt text](/assets/images/final_project/final_project07.png)   
    
 * 메인은 C님이 주신 레퍼런스를 참고하여 설계했고 내용은 유사사이트 분석 시 확인했던 리필스테이션의 내용을 사용했다.
 * 마이페이지는 크게 마이페이지 메인을 두고 내 정보를 모두 확인할 수 있게 했다. 그 아래로 세부 메뉴를 구성했다.
    
 -
    
-![Alt text](/assets/images/framework/final_project/final_project11.png)   
+![Alt text](/assets/images/final_project/final_project11.png)   
    
 * 역시 중간 중간 새롭게 추가되기도 하고 수정도 많았다. 최종 ERD.
 * 세미, 파이널 때 모두 이 과정은 왜 거치는 걸까? DBA가 해주지 않나.. 생각했다.
@@ -164,7 +164,7 @@ categories: ['Java']
    
 -
    
-![Alt text](/assets/images/framework/final_project/final_project08.png)   
+![Alt text](/assets/images/final_project/final_project08.png)   
    
 * 실무에서 퍼블했을 때와 똑같이 컴포넌트 작업을 했다.
 * 버튼 / form 관련 태그 / 탭 / 아코디언 / 레이어 팝업 / 일반 게시판 / 썸네일 게시판 / 페이징
@@ -184,7 +184,7 @@ categories: ['Java']
 
 -
    
-![Alt text](/assets/images/framework/final_project/final_project09.png)   
+![Alt text](/assets/images/final_project/final_project09.png)   
    
 * 각자 맡은 부분을 디자인했다.
 * 난 사실 이 단계가 왜 필요한지 의문이 들었다. 개발자가 피그마를 사용할 줄 알아야하는 건 맞지만 디자인을 할 줄 알아야하는 것은 아니다. IDE 툴을 안다고 개발을 할 줄 아는 것은 아닌 것과 마찬가지라고 생각한다.
@@ -197,7 +197,7 @@ categories: ['Java']
    
 -
    
-![Alt text](/assets/images/framework/final_project/final_project10.png)   
+![Alt text](/assets/images/final_project/final_project10.png)   
    
 * 내가 맡은 페이지들 디자인
 * 메인 쪽은 제일 중요하다고 생각되어 여러번 수정을 거쳤다.
@@ -216,7 +216,7 @@ categories: ['Java']
    
 -
    
-![Alt text](/assets/images/framework/final_project/final_project12.png)   
+![Alt text](/assets/images/final_project/final_project12.png)   
    
 * 이런식으로 백로그에 모든 할 일을 추가하고
 * 일주일 단위로 스프린트를 설정하여 그 주에 꼭 목표한 일을 달성하기로 했다.
@@ -276,7 +276,7 @@ categories: ['Java']
 * 대댓글이 있는 모댓글 삭제 시, '삭제된 댓글입니다.' 출력 되도록 구현하기로 했다.
   * 문제는 그다음 대댓글 삭제 시, 모댓글도 같이 삭제되어야하는데 이것을 판별하는데 어려움을 느꼈다.
    
-![Alt text](/assets/images/framework/final_project/final_project13.png)   
+![Alt text](/assets/images/final_project/final_project13.png)   
    
   * 이렇게 하고 싶었다...
 * 방향을 틀어 모댓글일 경우 '대댓글이 있는 댓글은 삭제할 수 없습니다.'라는 알림창을 띄웠다.
