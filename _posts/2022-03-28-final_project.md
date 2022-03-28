@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "파이널 프로젝트 회고"
+categories: ['Java']
 ---
 
 #### 프로젝트 개요
